@@ -1,0 +1,33 @@
+#arrival-tabs { 
+    padding: 0px; 
+    background: none; 
+    border-width: 0px; 
+    font-size: 1.6rem;
+} 
+#arrival-tabs .ui-tabs-nav { 
+    padding-left: 0px; 
+    padding-right: 0;
+    background: transparent; 
+    border-width: 0px 0px 3px 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+    border-color: #00a69c;
+} 
+#arrival-tabs .ui-state-default, #arrival-tabs .ui-widget-content .ui-state-default, #arrival-tabs .ui-widget-header .ui-state-default{background: none; border: none; margin-right: 0;}
+#arrival-tabs .ui-tabs-active, #arrival-tabs .ui-tabs-state-active{background: #00a69c !important;}
+#arrival-tabs .ui-tabs-nav li a{padding: .5em;}
+#arrival-tabs .ui-tabs-active a, #arrival-tabs .ui-tabs-state-active a{color: #ffffff;}
+#arrival-tabs .ui-tabs-panel { 
+    background: #f5f3e5 url(https://code.jquery.com/ui/1.8.23/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png) repeat-x scroll 50% top; 
+    border-width: 0px 1px 1px 1px; 
+}
+#arrival-tabs .ui-tabs-panel{background: none; border: none;}
+.bx-wrapper .bx-viewport{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* SiteOrigin Fix */
+.bx-wrapper .bx-viewport .bx-controls.bx-has-pager.bx-has-controls-direction{display: none;}

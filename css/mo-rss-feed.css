@@ -1,0 +1,100 @@
+.mo-rss-feed-container .rss-image-container { 
+    max-width: 300px; 
+    height: 150px; 
+    overflow: hidden; 
+}
+.mo-rss-feed-container .rss-image-container img { 
+    width: 100%;
+}
+
+.mo-rss-feed-container .slide h3{
+	margin-top: 20px;
+}
+
+.mo-rss-feed-container .column,
+.mo-rss-feed-container .columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+ .mo-rss-feed-container .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+ .mo-rss-feed-container .container {
+    width: 80%; }
+ .mo-rss-feed-container .column,
+ .mo-rss-feed-container .columns {
+    margin-left: 4%; }
+ .mo-rss-feed-container .column:first-child,
+ .mo-rss-feed-container .columns:first-child {
+    margin-left: 0; }
+
+ .mo-rss-feed-container .one.column,
+ .mo-rss-feed-container .one.columns                    { width: 4.66666666667%; }
+ .mo-rss-feed-container .two.columns                    { width: 13.3333333333%; }
+ .mo-rss-feed-container .three.columns                  { width: 22%;            }
+ .mo-rss-feed-container .four.columns                   { width: 30.6666666667%; }
+ .mo-rss-feed-container .five.columns                   { width: 39.3333333333%; }
+ .mo-rss-feed-container .six.columns                    { width: 48%;            }
+ .mo-rss-feed-container .seven.columns                  { width: 56.6666666667%; }
+ .mo-rss-feed-container .eight.columns                  { width: 65.3333333333%; }
+ .mo-rss-feed-container .nine.columns                   { width: 74.0%;          }
+ .mo-rss-feed-container .ten.columns                    { width: 82.6666666667%; }
+ .mo-rss-feed-container .eleven.columns                 { width: 91.3333333333%; }
+ .mo-rss-feed-container .twelve.columns                 { width: 100%; margin-left: 0; }
+
+ .mo-rss-feed-container .one-third               { width: 30.6666666667%; }
+ .mo-rss-feed-container .two-thirds              { width: 65.3333333333%; }
+
+ .mo-rss-feed-container .one-half                { width: 48%; float: left;}
+
+  /* Offsets */
+ .mo-rss-feed-container .offset-by-one.column,
+ .mo-rss-feed-container .offset-by-one.columns          { margin-left: 8.66666666667%; }
+ .mo-rss-feed-container .offset-by-two.column,
+ .mo-rss-feed-container .offset-by-two.columns          { margin-left: 17.3333333333%; }
+ .mo-rss-feed-container .offset-by-three.column,
+ .mo-rss-feed-container .offset-by-three.columns        { margin-left: 26%;            }
+ .mo-rss-feed-container .offset-by-four.column,
+ .mo-rss-feed-container .offset-by-four.columns         { margin-left: 34.6666666667%; }
+ .mo-rss-feed-container .offset-by-five.column,
+ .mo-rss-feed-container .offset-by-five.columns         { margin-left: 43.3333333333%; }
+ .mo-rss-feed-container .offset-by-six.column,
+ .mo-rss-feed-container .offset-by-six.columns          { margin-left: 52%;            }
+ .mo-rss-feed-container .offset-by-seven.column,
+ .mo-rss-feed-container .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+ .mo-rss-feed-container .offset-by-eight.column,
+ .mo-rss-feed-container .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+ .mo-rss-feed-container .offset-by-nine.column,
+ .mo-rss-feed-container .offset-by-nine.columns         { margin-left: 78.0%;          }
+ .mo-rss-feed-container .offset-by-ten.column,
+ .mo-rss-feed-container .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+ .mo-rss-feed-container .offset-by-eleven.column,
+ .mo-rss-feed-container .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+ .mo-rss-feed-container .offset-by-one-third.column,
+ .mo-rss-feed-container .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+ .mo-rss-feed-container .offset-by-two-thirds.column,
+ .mo-rss-feed-container .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+ .mo-rss-feed-container .offset-by-one-half.column,
+ .mo-rss-feed-container .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.mo-rss-feed-container .container:after,
+.mo-rss-feed-container .row:after,
+.mo-rss-feed-container .u-cf {
+  content: "";
+  display: table;
+  clear: both; }

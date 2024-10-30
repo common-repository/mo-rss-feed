@@ -1,0 +1,3 @@
+.two-column{margin-bottom: 0;}
+.two_column li{margin-bottom: 40px !important;}
+.two_column li:nth-child(odd){margin-left:0;}
